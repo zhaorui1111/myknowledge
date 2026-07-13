@@ -35,6 +35,9 @@ jobs:
         working-directory: web
         run: pnpm build
 
+      - name: Generate 404.html for SPA routing
+        run: cp web/dist/index.html web/dist/404.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
