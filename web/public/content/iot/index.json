@@ -1,0 +1,186 @@
+{
+  "groups": [
+    {
+      "label": "设备配网与安全",
+      "items": [
+        {
+          "slug": "01-IoT设备配置绑定概述",
+          "title": "01 · IoT 设备配置绑定概述"
+        },
+        {
+          "slug": "02-WiFi配网技术详解",
+          "title": "02 · WiFi 配网技术详解"
+        },
+        {
+          "slug": "03-蓝牙BLE配对与绑定流程",
+          "title": "03 · 蓝牙 BLE 配对与绑定流程"
+        },
+        {
+          "slug": "04-Zigbee设备入网与绑定流程",
+          "title": "04 · Zigbee 设备入网与绑定流程"
+        },
+        {
+          "slug": "05-Matter协议设备配网详解",
+          "title": "05 · Matter 协议设备配网详解"
+        },
+        {
+          "slug": "06-IoT设备身份认证与安全",
+          "title": "06 · IoT 设备身份认证与安全"
+        },
+        {
+          "slug": "22-纯蓝牙设备配网流程详解",
+          "title": "22 · 纯蓝牙设备配网流程详解"
+        },
+        {
+          "slug": "23-蓝牙Mesh设备配网流程详解",
+          "title": "23 · 蓝牙 Mesh 设备配网流程详解"
+        },
+        {
+          "slug": "24-蓝牙网关配网架构详解",
+          "title": "24 · 蓝牙网关配网架构详解"
+        }
+      ]
+    },
+    {
+      "label": "通信协议详解",
+      "items": [
+        {
+          "slug": "07-WiFi广播与组播协议详解",
+          "title": "07 · WiFi 广播与组播协议详解"
+        },
+        {
+          "slug": "08-蓝牙BLE广播协议详解",
+          "title": "08 · 蓝牙 BLE 广播协议详解"
+        },
+        {
+          "slug": "09-Zigbee协议栈详解",
+          "title": "09 · Zigbee 协议栈详解"
+        },
+        {
+          "slug": "10-Thread协议详解",
+          "title": "10 · Thread 协议详解"
+        },
+        {
+          "slug": "11-MQTT协议详解",
+          "title": "11 · MQTT 协议详解"
+        },
+        {
+          "slug": "12-CoAP协议详解",
+          "title": "12 · CoAP 协议详解"
+        },
+        {
+          "slug": "13-LoRa与LoRaWAN协议详解",
+          "title": "13 · LoRa 与 LoRaWAN 协议详解"
+        },
+        {
+          "slug": "14-NFC近场通信协议详解",
+          "title": "14 · NFC 近场通信协议详解"
+        },
+        {
+          "slug": "15-Z-Wave协议详解",
+          "title": "15 · Z-Wave 协议详解"
+        }
+      ]
+    },
+    {
+      "label": "工程实践",
+      "items": [
+        {
+          "slug": "16-IoT设备OTA固件升级详解",
+          "title": "16 · IoT 设备 OTA 固件升级详解"
+        },
+        {
+          "slug": "17-IoT网关与边缘计算",
+          "title": "17 · IoT 网关与边缘计算"
+        },
+        {
+          "slug": "18-HomeKit与智能家居协议详解",
+          "title": "18 · HomeKit 与智能家居协议详解"
+        },
+        {
+          "slug": "19-经典蓝牙BR-EDR与IoT应用详解",
+          "title": "19 · 经典蓝牙（BR/EDR）与 IoT 应用详解"
+        },
+        {
+          "slug": "20-蓝牙Mesh网络协议详解",
+          "title": "20 · 蓝牙 Mesh 网络协议详解"
+        },
+        {
+          "slug": "21-IoT中央网关架构设计详解",
+          "title": "21 · IoT 中央网关架构设计详解"
+        }
+      ]
+    },
+    {
+      "label": "iOS 开发与架构",
+      "items": [
+        {
+          "slug": "25-CoreBluetooth框架核心API与状态机详解",
+          "title": "25 · CoreBluetooth 框架核心 API 与状态机详解"
+        },
+        {
+          "slug": "26-BLE-GATT服务设计与数据交互实践",
+          "title": "26 · BLE GATT 服务设计与数据交互实践"
+        },
+        {
+          "slug": "27-BLE-MTU协商与大包数据传输机制",
+          "title": "27 · BLE MTU 协商与大包数据传输机制"
+        },
+        {
+          "slug": "28-BLE-OTA固件升级完整实现方案",
+          "title": "28 · BLE OTA 固件升级完整实现方案"
+        },
+        {
+          "slug": "29-iOS蓝牙后台运行与连接保活策略",
+          "title": "29 · iOS 蓝牙后台运行与连接保活策略"
+        },
+        {
+          "slug": "30-iOS-App架构模式详解-MVVM与CleanArchitecture",
+          "title": "30 · iOS App 架构模式详解（MVVM 与 Clean Architecture）"
+        },
+        {
+          "slug": "31-iOS组件化与模块化架构实践",
+          "title": "31 · iOS 组件化与模块化架构实践"
+        }
+      ]
+    },
+    {
+      "label": "设备通信协议设计",
+      "items": [
+        {
+          "slug": "32-私有通信协议数据帧格式设计",
+          "title": "32 · 私有通信协议数据帧格式设计"
+        },
+        {
+          "slug": "33-通信协议数据分包与重组机制",
+          "title": "33 · 通信协议数据分包与重组机制"
+        },
+        {
+          "slug": "34-通信协议流控与重传机制详解",
+          "title": "34 · 通信协议流控与重传机制详解"
+        },
+        {
+          "slug": "35-通信协议校验机制与加密策略",
+          "title": "35 · 通信协议校验机制与加密策略"
+        },
+        {
+          "slug": "36-局域网设备发现与WiFi通信实践",
+          "title": "36 · 局域网设备发现与 WiFi 通信实践"
+        }
+      ]
+    },
+    {
+      "label": "性能优化与问题攻关",
+      "items": [
+        {
+          "slug": "37-iOS性能优化体系详解",
+          "title": "37 · iOS 性能优化体系详解"
+        },
+        {
+          "slug": "38-复杂设备通信问题排查与抓包分析",
+          "title": "38 · 复杂设备通信问题排查与抓包分析"
+        }
+      ]
+    }
+  ]
+}

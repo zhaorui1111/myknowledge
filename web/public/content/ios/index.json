@@ -1,0 +1,194 @@
+{
+  "groups": [
+    {
+      "label": "知识体系",
+      "items": [
+        {
+          "slug": "iOS知识体系",
+          "title": "iOS 开发知识体系"
+        }
+      ]
+    },
+    {
+      "label": "核心专题",
+      "items": [
+        {
+          "slug": "01-Objective-C语言基础详解",
+          "title": "01 · Objective-C 语言基础详解"
+        },
+        {
+          "slug": "02-Swift语言基础详解",
+          "title": "02 · Swift 语言基础详解"
+        },
+        {
+          "slug": "03-内存管理详解",
+          "title": "03 · iOS 内存管理详解"
+        },
+        {
+          "slug": "04-消息机制与Runtime详解",
+          "title": "04 · Objective-C 消息机制与 Runtime 详解"
+        },
+        {
+          "slug": "05-多线程与并发详解",
+          "title": "05 · iOS 多线程与并发详解"
+        },
+        {
+          "slug": "06-锁的底层原理详解",
+          "title": "06 · iOS 锁的底层原理详解"
+        },
+        {
+          "slug": "07-事件响应链与渲染详解",
+          "title": "07 · iOS 事件响应链与渲染详解"
+        },
+        {
+          "slug": "08-性能优化详解",
+          "title": "08 · iOS 性能优化详解"
+        },
+        {
+          "slug": "09-RunLoop详解",
+          "title": "09 · RunLoop 详解"
+        },
+        {
+          "slug": "10-导航与模态详解",
+          "title": "10 · 导航与模态详解"
+        },
+        {
+          "slug": "11-CocoaPods详解",
+          "title": "11 · CocoaPods 详解"
+        },
+        {
+          "slug": "12-MVC-MVP-MVVM架构详解",
+          "title": "12 · MVC / MVP / MVVM 架构详解"
+        },
+        {
+          "slug": "13-编译与构建详解",
+          "title": "13 · 编译与构建详解"
+        },
+        {
+          "slug": "14-ScrollView-TableView-CollectionView详解",
+          "title": "14 · UIScrollView / UITableView / UICollectionView 详解"
+        },
+        {
+          "slug": "15-Swift与Objective-C互操作详解",
+          "title": "15 · Swift 与 Objective-C 互操作详解"
+        },
+        {
+          "slug": "16-计算机网络基础详解",
+          "title": "16 · 计算机网络基础详解"
+        },
+        {
+          "slug": "17-算法与数据结构详解",
+          "title": "17 · 算法与数据结构详解"
+        },
+        {
+          "slug": "18-操作系统基础详解",
+          "title": "18 · 操作系统基础详解"
+        },
+        {
+          "slug": "19-设计模式扩展详解",
+          "title": "19 · 设计模式扩展详解"
+        },
+        {
+          "slug": "20-逆向与安全详解",
+          "title": "20 · iOS 逆向与安全详解"
+        },
+        {
+          "slug": "21-App启动优化工程实战",
+          "title": "21 · App 启动优化工程实战"
+        },
+        {
+          "slug": "22-卡顿监控与渲染优化",
+          "title": "22 · 卡顿监控与渲染优化工程详解"
+        },
+        {
+          "slug": "23-热修复与动态化",
+          "title": "23 · 热修复与动态化详解"
+        },
+        {
+          "slug": "24-组件化与工程架构",
+          "title": "24 · 组件化与工程架构详解"
+        },
+        {
+          "slug": "25-线上性能监控体系",
+          "title": "25 · 线上性能监控体系详解"
+        },
+        {
+          "slug": "26-SwiftUI与声明式UI详解",
+          "title": "26 · SwiftUI 与声明式 UI 详解"
+        },
+        {
+          "slug": "27-Swift并发新模型详解",
+          "title": "27 · Swift 并发新模型详解（async/await、Actor、Sendable）"
+        },
+        {
+          "slug": "28-Combine与响应式编程详解",
+          "title": "28 · Combine 与响应式编程详解"
+        },
+        {
+          "slug": "29-数据持久化详解",
+          "title": "29 · iOS 数据持久化详解"
+        },
+        {
+          "slug": "30-Core Animation与图形渲染详解",
+          "title": "30 · Core Animation 与图形渲染详解"
+        },
+        {
+          "slug": "31-国际化与本地化详解",
+          "title": "31 · 国际化与本地化详解"
+        },
+        {
+          "slug": "32-iOS测试体系详解",
+          "title": "32 · iOS 测试体系详解"
+        },
+        {
+          "slug": "33-Swift Package Manager详解",
+          "title": "33 · Swift Package Manager 详解"
+        },
+        {
+          "slug": "34-崩溃捕获与符号化详解",
+          "title": "34 · 崩溃捕获与符号化详解"
+        },
+        {
+          "slug": "35-包体积优化详解",
+          "title": "35 · 包体积优化详解"
+        },
+        {
+          "slug": "36-调试与性能分析工具链详解",
+          "title": "36 · 调试与性能分析工具链详解"
+        },
+        {
+          "slug": "37-推送通知详解",
+          "title": "37 · 推送通知详解"
+        },
+        {
+          "slug": "38-App Extension生态详解",
+          "title": "38 · App Extension 生态详解"
+        },
+        {
+          "slug": "39-iOS安全与加密详解",
+          "title": "39 · iOS 安全与加密详解"
+        },
+        {
+          "slug": "40-无障碍开发详解",
+          "title": "40 · 无障碍开发详解"
+        },
+        {
+          "slug": "41-音视频开发详解",
+          "title": "41 · 音视频开发详解（AVFoundation）"
+        },
+        {
+          "slug": "42-CoreML与设备端AI详解",
+          "title": "42 · CoreML 与设备端 AI 详解"
+        },
+        {
+          "slug": "43-二进制框架与组件分发详解",
+          "title": "43 · 二进制框架与组件分发详解"
+        },
+        {
+          "slug": "44-CI-CD for iOS详解",
+          "title": "44 · CI/CD for iOS 详解"
+        }
+      ]
+    }
+  ]
+}

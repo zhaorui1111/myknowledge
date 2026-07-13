@@ -1,0 +1,83 @@
+{
+  "groups": [
+    {
+      "label": "基础与架构",
+      "items": [
+        {
+          "slug": "01-神经网络与反向传播基础",
+          "title": "01 · 神经网络与反向传播基础（Neural Networks & Backpropagation）"
+        },
+        {
+          "slug": "02-词向量与Embedding",
+          "title": "02 · 词向量与 Embedding（Word Vectors & Embeddings）"
+        },
+        {
+          "slug": "03-注意力机制",
+          "title": "03 · 注意力机制（Attention Mechanism）"
+        },
+        {
+          "slug": "04-Transformer架构详解",
+          "title": "04 · Transformer 架构详解（Transformer Architecture）"
+        },
+        {
+          "slug": "05-位置编码",
+          "title": "05 · 位置编码（Positional Encoding）"
+        },
+        {
+          "slug": "06-Tokenizer与BPE",
+          "title": "06 · Tokenizer 与 BPE 详解"
+        }
+      ]
+    },
+    {
+      "label": "训练与对齐",
+      "items": [
+        {
+          "slug": "07-预训练（GPT与BERT）",
+          "title": "07 · 预训练（GPT 与 BERT）详解"
+        },
+        {
+          "slug": "08-微调SFT",
+          "title": "08 · 监督微调（SFT）详解"
+        },
+        {
+          "slug": "09-参数高效微调（LoRA-QLoRA）",
+          "title": "09 · 参数高效微调（LoRA / QLoRA）详解"
+        },
+        {
+          "slug": "10-RLHF与对齐",
+          "title": "10 - RLHF 与对齐（Alignment）"
+        }
+      ]
+    },
+    {
+      "label": "应用与工程",
+      "items": [
+        {
+          "slug": "11-PromptEngineering",
+          "title": "11 · Prompt Engineering：从原理到工程实践"
+        },
+        {
+          "slug": "12-RAG检索增强生成",
+          "title": "12 · RAG 检索增强生成（Retrieval-Augmented Generation）详解"
+        },
+        {
+          "slug": "13-Agent与工具调用",
+          "title": "13 · Agent 与工具调用（LLM Agents & Tool Use）详解"
+        },
+        {
+          "slug": "14-推理优化（KVCache-量化-MoE）",
+          "title": "14. 推理优化：KV Cache、量化与 MoE"
+        },
+        {
+          "slug": "15-多模态大模型",
+          "title": "15 - 多模态大模型（Multimodal Large Language Models）"
+        },
+        {
+          "slug": "16-评测、幻觉与安全对齐",
+          "title": "16 · 评测、幻觉与安全对齐"
+        }
+      ]
+    }
+  ]
+}

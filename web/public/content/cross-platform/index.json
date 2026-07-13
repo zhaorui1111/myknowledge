@@ -1,0 +1,89 @@
+{
+  "groups": [
+    {
+      "label": "React Native",
+      "items": [
+        {
+          "slug": "01-跨端技术总览与选型对比",
+          "title": "01 · 跨端技术总览与选型对比"
+        },
+        {
+          "slug": "02-React Native 架构原理详解",
+          "title": "02 · React Native 架构原理详解"
+        },
+        {
+          "slug": "03-React Native 组件与导航详解",
+          "title": "03 · React Native 组件与导航详解"
+        },
+        {
+          "slug": "04-React Native 状态管理与 Hooks 详解",
+          "title": "04 · React Native 状态管理与 Hooks 详解"
+        },
+        {
+          "slug": "05-React Native 原生模块与 Bridge 详解",
+          "title": "05 · React Native 原生模块与 Bridge 详解"
+        },
+        {
+          "slug": "06-React Native 性能优化详解",
+          "title": "06 · React Native 性能优化详解"
+        }
+      ]
+    },
+    {
+      "label": "Flutter",
+      "items": [
+        {
+          "slug": "07-Flutter 架构原理详解",
+          "title": "07 · Flutter 架构原理详解"
+        },
+        {
+          "slug": "08-Flutter Widget 体系与布局详解",
+          "title": "08 · Flutter Widget 体系与布局详解"
+        },
+        {
+          "slug": "09-Flutter 状态管理详解",
+          "title": "09 · Flutter 状态管理详解"
+        },
+        {
+          "slug": "10-Flutter 原生通信与 Platform Channel 详解",
+          "title": "10 · Flutter 原生通信与 Platform Channel 详解"
+        },
+        {
+          "slug": "11-Flutter 性能优化详解",
+          "title": "11 · Flutter 性能优化详解"
+        }
+      ]
+    },
+    {
+      "label": "混合开发",
+      "items": [
+        {
+          "slug": "12-混合开发与 WebView 详解",
+          "title": "12 · 混合开发与 WebView 详解"
+        }
+      ]
+    },
+    {
+      "label": "其他跨端方案与工程化",
+      "items": [
+        {
+          "slug": "13-Kotlin Multiplatform 与其他跨端方案",
+          "title": "13 · Kotlin Multiplatform 与其他跨端方案"
+        },
+        {
+          "slug": "14-跨端工程化与 CI-CD 详解",
+          "title": "14 · 跨端工程化与 CI/CD 详解"
+        }
+      ]
+    },
+    {
+      "label": "技术选型与面试",
+      "items": [
+        {
+          "slug": "15-跨端技术选型与面试要点",
+          "title": "15 · 跨端技术选型与面试要点"
+        }
+      ]
+    }
+  ]
+}
