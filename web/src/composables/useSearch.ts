@@ -52,7 +52,7 @@ interface RawNavGroup {
 
 async function loadModule(key: string, label: string): Promise<SearchItem[]> {
   try {
-    const res = await fetch(`/content/${key}/index.json`)
+    const res = await fetch(`${import.meta.env.BASE_URL}content/${key}/index.json`)
     if (!res.ok) return []
     const data = (await res.json()) as { groups?: RawNavGroup[] }
     const out: SearchItem[] = []

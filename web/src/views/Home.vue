@@ -27,7 +27,7 @@ const iotCount = ref<number>(PLANNED.iot)
 /** 尝试读取某模块的内容清单（B5 产出），失败则保留兜底值。 */
 async function probeCount(mod: string, target: { value: number }) {
   try {
-    const res = await fetch(`/content/${mod}/index.json`)
+    const res = await fetch(`${import.meta.env.BASE_URL}content/${mod}/index.json`)
     if (!res.ok) return
     const data = await res.json()
     let n = NaN

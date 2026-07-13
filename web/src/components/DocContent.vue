@@ -117,7 +117,7 @@ async function loadDoc() {
   activeId.value = ''
   headingIndex = 0
   try {
-    const res = await fetch(`/content/${props.module}/${props.slug}.md`)
+    const res = await fetch(`${import.meta.env.BASE_URL}content/${props.module}/${props.slug}.md`)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     const text = await res.text()
     toc.value = extractToc(text)

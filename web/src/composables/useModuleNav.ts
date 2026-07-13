@@ -20,7 +20,7 @@ export function useModuleNav(module: string) {
 
   onMounted(async () => {
     try {
-      const res = await fetch(`/content/${module}/index.json`)
+      const res = await fetch(`${import.meta.env.BASE_URL}content/${module}/index.json`)
       if (!res.ok) {
         // 404 等情况：模块暂无内容
         groups.value = []
