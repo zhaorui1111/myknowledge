@@ -78,6 +78,71 @@
           "title": "16 · 评测、幻觉与安全对齐"
         }
       ]
+    },
+    {
+      "label": "Agent 与全栈工程实战",
+      "items": [
+        {
+          "slug": "17-现代Python与高并发系统工程",
+          "title": "17 · 现代 Python 与高并发 AI 系统工程"
+        },
+        {
+          "slug": "18-结构化输出与确定性通信",
+          "title": "18 · 结构化输出与确定性通信（Structured Outputs）"
+        },
+        {
+          "slug": "19-工业级ToolCalling与MCP协议",
+          "title": "19 · 工业级 Tool Calling 与 Anthropic MCP 协议"
+        },
+        {
+          "slug": "20-企业级高级RAG架构实战",
+          "title": "20 · 企业级高级 RAG 检索增强架构实战"
+        },
+        {
+          "slug": "21-单智能体状态图LangGraph核心",
+          "title": "21 · 单智能体状态图：LangGraph 核心深度剖析"
+        },
+        {
+          "slug": "22-智能体记忆系统与上下文工程",
+          "title": "22 · 智能体记忆系统与上下文工程（Context Engineering）"
+        },
+        {
+          "slug": "23-人机协同与状态回溯",
+          "title": "23 · 人机协同与状态回溯（Human-in-the-Loop）"
+        },
+        {
+          "slug": "24-多智能体协同网络",
+          "title": "24 · 多智能体协同网络（Multi-Agent Systems: CrewAI / AutoGen）"
+        },
+        {
+          "slug": "25-智能体低代码与快速工程化",
+          "title": "25 · 智能体低代码平台与快速工程化（Dify / Flowise）"
+        },
+        {
+          "slug": "26-生产级LLMOps与可观测性",
+          "title": "26 · 生产级 LLMOps 与可观测性体系（Langfuse）"
+        },
+        {
+          "slug": "27-端到端实战-企业级知识库助手全案",
+          "title": "27 · 端到端实战：企业级知识库问答助手全案"
+        },
+        {
+          "slug": "28-端到端实战-自主数据分析Agent",
+          "title": "28 · 端到端实战：自主数据分析与代码执行 Agent（Data Science & Code Interpreter Agent）"
+        },
+        {
+          "slug": "29-AI新手第一课-本地大模型环境搭建与Python入门",
+          "title": "29 · AI 新手第一课：本地大模型环境搭建与 Python 极速入门实战"
+        },
+        {
+          "slug": "30-大模型选型全景地图与Token经济学",
+          "title": "30 · 大模型选型全景地图与 Token 经济学实战"
+        },
+        {
+          "slug": "31-AIAgent工程师求职与大厂面试通关指南",
+          "title": "31 · AI Agent 工程师求职与大厂面试通关指南"
+        }
+      ]
     }
   ]
 }

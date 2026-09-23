@@ -89,6 +89,7 @@ function groupLlm(items) {
   const base = []
   const train = []
   const app = []
+  const agent = []
   const other = []
   for (const item of items) {
     const m = item.slug.match(/^(\d+)-/)
@@ -96,12 +97,14 @@ function groupLlm(items) {
     const n = parseInt(m[1], 10)
     if (n <= 6) base.push(item)
     else if (n <= 10) train.push(item)
-    else app.push(item)
+    else if (n <= 16) app.push(item)
+    else agent.push(item)
   }
   const groups = []
   if (base.length) groups.push({ label: '基础与架构', items: base })
   if (train.length) groups.push({ label: '训练与对齐', items: train })
   if (app.length) groups.push({ label: '应用与工程', items: app })
+  if (agent.length) groups.push({ label: 'Agent 与全栈工程实战', items: agent })
   if (other.length) groups.push({ label: '其他', items: other })
   return groups.length ? groups : [{ items }]
 }
