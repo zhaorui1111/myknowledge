@@ -26,6 +26,22 @@
         {
           "slug": "06-Tokenizer与BPE",
           "title": "06 · Tokenizer 与 BPE 详解"
+        },
+        {
+          "slug": "07-现代Transformer进化史-RMSNorm与SwiGLU与FlashAttention",
+          "title": "07 · 现代 Transformer 进化史：RMSNorm、SwiGLU 与 FlashAttention"
+        },
+        {
+          "slug": "08-现代注意力与KVCache演进-MQA与GQA与DeepSeek-MLA",
+          "title": "08 · 现代注意力与 KV Cache 演进：MQA、GQA 到 DeepSeek-MLA"
+        },
+        {
+          "slug": "09-MoE混合专家架构全解-稀疏激活与动态路由负载均衡",
+          "title": "09 · MoE 混合专家架构全解：稀疏激活、动态路由与负载均衡"
+        },
+        {
+          "slug": "10-长文本上下文扩展秘籍-RoPE位置外推插值与YaRN",
+          "title": "10 · 长文本上下文扩展秘籍：RoPE 位置外推、插值与 YaRN"
         }
       ]
     },
@@ -33,20 +49,36 @@
       "label": "训练与对齐",
       "items": [
         {
-          "slug": "07-预训练（GPT与BERT）",
-          "title": "07 · 预训练（GPT 与 BERT）详解"
+          "slug": "11-预训练（GPT与BERT）",
+          "title": "11 · 预训练（GPT 与 BERT）详解"
         },
         {
-          "slug": "08-微调SFT",
-          "title": "08 · 监督微调（SFT）详解"
+          "slug": "12-微调SFT",
+          "title": "12 · 监督微调（SFT）详解"
         },
         {
-          "slug": "09-参数高效微调（LoRA-QLoRA）",
-          "title": "09 · 参数高效微调（LoRA / QLoRA）详解"
+          "slug": "13-参数高效微调（LoRA-QLoRA）",
+          "title": "13 · 参数高效微调（LoRA / QLoRA）详解"
         },
         {
-          "slug": "10-RLHF与对齐",
-          "title": "10 - RLHF 与对齐（Alignment）"
+          "slug": "14-RLHF与对齐",
+          "title": "14 - RLHF 与对齐（Alignment）"
+        },
+        {
+          "slug": "15-预训练数据工程与ScalingLaws算力精算",
+          "title": "15 · 预训练数据工程与 Scaling Laws 算力精算：喂养大模型的艺术"
+        },
+        {
+          "slug": "16-千卡分布式训练与3D并行ZeRO显存分片",
+          "title": "16 · 千卡分布式训练与 3D 并行：ZeRO 显存分片深度揭秘"
+        },
+        {
+          "slug": "17-后RLHF时代现代对齐矩阵-DPO与KTO与SimPO",
+          "title": "17 · 后 RLHF 时代现代对齐矩阵：从 PPO 到 DPO、KTO 与 SimPO"
+        },
+        {
+          "slug": "18-推理大模型慢思考内幕-从SFT到DeepSeek-R1强化学习涌现",
+          "title": "18 · 推理大模型慢思考内幕：从 SFT 到 DeepSeek-R1 强化学习涌现"
         }
       ]
     },
@@ -54,28 +86,28 @@
       "label": "应用与工程",
       "items": [
         {
-          "slug": "11-PromptEngineering",
-          "title": "11 · Prompt Engineering：从原理到工程实践"
+          "slug": "19-PromptEngineering",
+          "title": "19 · Prompt Engineering：从原理到工程实践"
         },
         {
-          "slug": "12-RAG检索增强生成",
-          "title": "12 · RAG 检索增强生成（Retrieval-Augmented Generation）详解"
+          "slug": "20-RAG检索增强生成",
+          "title": "20 · RAG 检索增强生成（Retrieval-Augmented Generation）详解"
         },
         {
-          "slug": "13-Agent与工具调用",
-          "title": "13 · Agent 与工具调用（LLM Agents & Tool Use）详解"
+          "slug": "21-Agent与工具调用",
+          "title": "21 · Agent 与工具调用（LLM Agents & Tool Use）详解"
         },
         {
-          "slug": "14-推理优化（KVCache-量化-MoE）",
-          "title": "14. 推理优化：KV Cache、量化与 MoE"
+          "slug": "22-推理优化（KVCache-量化-MoE）",
+          "title": "22. 推理优化：KV Cache、量化与 MoE"
         },
         {
-          "slug": "15-多模态大模型",
-          "title": "15 - 多模态大模型（Multimodal Large Language Models）"
+          "slug": "23-多模态大模型",
+          "title": "23 - 多模态大模型（Multimodal Large Language Models）"
         },
         {
-          "slug": "16-评测、幻觉与安全对齐",
-          "title": "16 · 评测、幻觉与安全对齐"
+          "slug": "24-评测、幻觉与安全对齐",
+          "title": "24 · 评测、幻觉与安全对齐"
         }
       ]
     },
@@ -83,64 +115,64 @@
       "label": "Agent 与全栈工程实战",
       "items": [
         {
-          "slug": "17-现代Python与高并发系统工程",
-          "title": "17 · 现代 Python 与高并发 AI 系统工程"
+          "slug": "25-现代Python与高并发系统工程",
+          "title": "25 · 现代 Python 与高并发 AI 系统工程"
         },
         {
-          "slug": "18-结构化输出与确定性通信",
-          "title": "18 · 结构化输出与确定性通信（Structured Outputs）"
+          "slug": "26-结构化输出与确定性通信",
+          "title": "26 · 结构化输出与确定性通信（Structured Outputs）"
         },
         {
-          "slug": "19-工业级ToolCalling与MCP协议",
-          "title": "19 · 工业级 Tool Calling 与 Anthropic MCP 协议"
+          "slug": "27-工业级ToolCalling与MCP协议",
+          "title": "27 · 工业级 Tool Calling 与 Anthropic MCP 协议"
         },
         {
-          "slug": "20-企业级高级RAG架构实战",
-          "title": "20 · 企业级高级 RAG 检索增强架构实战"
+          "slug": "28-企业级高级RAG架构实战",
+          "title": "28 · 企业级高级 RAG 检索增强架构实战"
         },
         {
-          "slug": "21-单智能体状态图LangGraph核心",
-          "title": "21 · 单智能体状态图：LangGraph 核心深度剖析"
+          "slug": "29-单智能体状态图LangGraph核心",
+          "title": "29 · 单智能体状态图：LangGraph 核心深度剖析"
         },
         {
-          "slug": "22-智能体记忆系统与上下文工程",
-          "title": "22 · 智能体记忆系统与上下文工程（Context Engineering）"
+          "slug": "30-智能体记忆系统与上下文工程",
+          "title": "30 · 智能体记忆系统与上下文工程（Context Engineering）"
         },
         {
-          "slug": "23-人机协同与状态回溯",
-          "title": "23 · 人机协同与状态回溯（Human-in-the-Loop）"
+          "slug": "31-人机协同与状态回溯",
+          "title": "31 · 人机协同与状态回溯（Human-in-the-Loop）"
         },
         {
-          "slug": "24-多智能体协同网络",
-          "title": "24 · 多智能体协同网络（Multi-Agent Systems: CrewAI / AutoGen）"
+          "slug": "32-多智能体协同网络",
+          "title": "32 · 多智能体协同网络（Multi-Agent Systems: CrewAI / AutoGen）"
         },
         {
-          "slug": "25-智能体低代码与快速工程化",
-          "title": "25 · 智能体低代码平台与快速工程化（Dify / Flowise）"
+          "slug": "33-智能体低代码与快速工程化",
+          "title": "33 · 智能体低代码平台与快速工程化（Dify / Flowise）"
         },
         {
-          "slug": "26-生产级LLMOps与可观测性",
-          "title": "26 · 生产级 LLMOps 与可观测性体系（Langfuse）"
+          "slug": "34-生产级LLMOps与可观测性",
+          "title": "34 · 生产级 LLMOps 与可观测性体系（Langfuse）"
         },
         {
-          "slug": "27-端到端实战-企业级知识库助手全案",
-          "title": "27 · 端到端实战：企业级知识库问答助手全案"
+          "slug": "35-端到端实战-企业级知识库助手全案",
+          "title": "35 · 端到端实战：企业级知识库问答助手全案"
         },
         {
-          "slug": "28-端到端实战-自主数据分析Agent",
-          "title": "28 · 端到端实战：自主数据分析与代码执行 Agent（Data Science & Code Interpreter Agent）"
+          "slug": "36-端到端实战-自主数据分析Agent",
+          "title": "36 · 端到端实战：自主数据分析与代码执行 Agent（Data Science & Code Interpreter Agent）"
         },
         {
-          "slug": "29-AI新手第一课-本地大模型环境搭建与Python入门",
-          "title": "29 · AI 新手第一课：本地大模型环境搭建与 Python 极速入门实战"
+          "slug": "37-AI新手第一课-本地大模型环境搭建与Python入门",
+          "title": "37 · AI 新手第一课：本地大模型环境搭建与 Python 极速入门实战"
         },
         {
-          "slug": "30-大模型选型全景地图与Token经济学",
-          "title": "30 · 大模型选型全景地图与 Token 经济学实战"
+          "slug": "38-大模型选型全景地图与Token经济学",
+          "title": "38 · 大模型选型全景地图与 Token 经济学实战"
         },
         {
-          "slug": "31-AIAgent工程师求职与大厂面试通关指南",
-          "title": "31 · AI Agent 工程师求职与大厂面试通关指南"
+          "slug": "39-AIAgent工程师求职与大厂面试通关指南",
+          "title": "39 · AI Agent 工程师求职与大厂面试通关指南"
         }
       ]
     }

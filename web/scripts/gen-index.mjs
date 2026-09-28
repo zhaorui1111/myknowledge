@@ -95,10 +95,11 @@ function groupLlm(items) {
     const m = item.slug.match(/^(\d+)-/)
     if (!m) { other.push(item); continue }
     const n = parseInt(m[1], 10)
-    if (n <= 6) base.push(item)
-    else if (n <= 10) train.push(item)
-    else if (n <= 16) app.push(item)
-    else agent.push(item)
+    if (n <= 10) base.push(item)
+    else if (n <= 18) train.push(item)
+    else if (n <= 24) app.push(item)
+    else if (n <= 39) agent.push(item)
+    else other.push(item)
   }
   const groups = []
   if (base.length) groups.push({ label: '基础与架构', items: base })
