@@ -122,6 +122,12 @@ async function loadDoc() {
     const res = await fetch(`/content/${mod}/${slug}.md`)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     const text = await res.text()
+    const firstH1 = text.match(/^#\s+(.+)$/m)
+    if (firstH1) {
+      document.title = firstH1[1].trim() + ' · 毕生所学'
+    } else {
+      document.title = slug + ' · 毕生所学'
+    }
     toc.value = extractToc(text)
     headingIndex = 0 // reset so render produces same IDs as extractToc
     html.value = md.render(text)

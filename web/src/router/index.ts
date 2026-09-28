@@ -22,4 +22,20 @@ const router = createRouter({
   routes,
 })
 
+const routeTitles: Record<string, string> = {
+  Home: '毕生所学',
+  iOS: 'iOS 开发 · 毕生所学',
+  Algorithm: '算法与数据结构 · 毕生所学',
+  LLM: '大模型与 AI Agent · 毕生所学',
+  CrossPlatform: '跨端开发 · 毕生所学',
+  IoT: '物联网与硬件工程 · 毕生所学',
+}
+
+router.afterEach((to) => {
+  if (to.name !== 'DocView') {
+    const title = (to.name && routeTitles[to.name as string]) || '毕生所学'
+    document.title = title
+  }
+})
+
 export default router
